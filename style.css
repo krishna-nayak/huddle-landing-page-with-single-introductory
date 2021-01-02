@@ -52,7 +52,11 @@ body {
 }
 
 .btn-register {
+	text-decoration: none;
 	margin-top: 5%;
+	padding: 15px 30px;
+	text-decoration: none;
+	border-radius: 60px;
 }
 
 @media screen and (max-width: 950px) {
