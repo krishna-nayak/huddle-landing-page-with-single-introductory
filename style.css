@@ -56,10 +56,18 @@ body {
 
 .btn-register {
 	text-decoration: none;
+	border: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1rem;
 	margin-top: 5%;
+	background-color: #e882e8;
+	color: white;
 	padding: 15px 60px;
-	text-decoration: none;
 	border-radius: 60px;
+	cursor: pointer;
+}
+.btn-register:hover {
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 950px) {
