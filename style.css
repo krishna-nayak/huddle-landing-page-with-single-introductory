@@ -60,14 +60,37 @@ body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 1rem;
 	margin-top: 5%;
-	background-color: #e882e8;
-	color: white;
+	background-color: white;
+	color: hsl(257, 40%, 49%);
 	padding: 15px 60px;
 	border-radius: 60px;
 	cursor: pointer;
+	box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
 }
 .btn-register:hover {
-	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+	background-color: #e882e8;
+	color: white;
+}
+
+.widget {
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+.icon-style {
+	size: 3;
+	color: white;
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 100%;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.icon-style:hover {
+	border: 1px solid #e882e8;
+	color: #e882e8;
 }
 
 @media screen and (max-width: 950px) {
@@ -100,6 +123,10 @@ body {
 	}
 	.title-paragraph {
 		line-height: 1.5;
+	}
+	.widget {
+		margin-top: 40px;
+		justify-content: center;
 	}
 }
 
